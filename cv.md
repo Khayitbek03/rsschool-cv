@@ -38,7 +38,7 @@ The rule of my life is:
 
 ### Code Examples ###
 
-
+```
 cout << "Enter elements of the array:" << endl;
   for (i = 0; i < n; i++) {
     cin >> a[i];
@@ -46,15 +46,15 @@ cout << "Enter elements of the array:" << endl;
   for (i = 0; i < n; i++) {
     cout << "a[" << i << "]=" << a[i] << endl;
   }
-
+```
 
 ### Education ###
 
-```
+
 - Inha University in Tashkent
   - School of Computer and Information Engineering
 - CS50: Introduction to Computer Science
-```
+
 
 ### Languages ###
 
