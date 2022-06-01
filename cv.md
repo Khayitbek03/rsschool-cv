@@ -50,11 +50,11 @@ cout << "Enter elements of the array:" << endl;
 
 ### Education ###
 
-
+```
 - Inha University in Tashkent
   - School of Computer and Information Engineering
 - CS50: Introduction to Computer Science
-
+```
 
 ### Languages ###
 
