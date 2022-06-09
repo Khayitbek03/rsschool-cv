@@ -11,13 +11,10 @@ body {
   line-height: 1.5;
   color: #4d2323;
   text-decoration: none;
-  margin: 0px;
+  margin: 0;
+  background-color: #ffe5b4;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -41,10 +38,10 @@ html {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: ;
   font-size: 1.125rem;
-  background-color: #ffe5b4;
-  margin: 0px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .section {
   width: 49%;
@@ -91,4 +88,9 @@ header {
 }
 .nav-link:hover {
   background-color: darkorange;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
