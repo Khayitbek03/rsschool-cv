@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   font-weight: 400;
   line-height: 1.5;
-  color: #4d2323;
+  color: #1f2937;
   text-decoration: none;
   margin: 0;
   background-color: #ffe5b4;
@@ -21,6 +21,7 @@ body {
   align-items: center;
   list-style: none;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 html {
@@ -42,22 +43,51 @@ html {
   font-size: 1.125rem;
   max-width: 1440px;
   margin: 0 auto;
+  color: #1f2937;
+}
+@media (max-width: 768px) {
+  .main {
+    font-size: 0.8rem;
+  }
+  .main #code code {
+    font-size: 8px;
+  }
+  .header a {
+    font-size: 0.8rem;
+  }
 }
 .section {
-  width: 49%;
+  width: 40%;
+  min-width: 300px;
 }
 
 .section-title {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #1f2937;
 }
 .name-foto {
   display: flex;
   justify-content: space-evenly;
   background-color: #ffe5b4;
+  margin-top: 5px;
+}
+.name-foto .photo img {
+  width: 200px;
+  height: 100%;
+}
+@media (max-width: 425px) {
+  .name-foto .photo img {
+    width: 120px;
+  }
+  .name-foto .name h1 {
+    font-size: 1em;
+  }
+  .name-foto .name h3 {
+    font-size: 0.5em;
+  }
 }
 footer {
   display: flex;
@@ -74,14 +104,14 @@ footer a,
 .section a,
 p {
   text-decoration: none;
-  color: #4d2323;
+  color: #1f2937;
 }
 header {
   background-color: #1f2937;
 }
 .photo {
-  padding: 15px 15px 0;
-  background-color: #829985;
+  padding: 10px;
+  background-color: #1f2937;
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
   -moz-box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
@@ -93,4 +123,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.name h1 {
+  text-transform: uppercase;
+}
+.code-example {
+  font-size: 0.8rem;
 }
